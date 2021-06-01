@@ -211,16 +211,31 @@
         color: rgb(138, 138, 138);
         width: 71%;
     }
-    Section .news .container a {
-        color: white;
-        background-color:#f13a11;
-        position:absolute;
-        left: 90px;
-        top: 78%;
-        padding: 17px 90px;
-        text-decoration: none;
+    section .news .button {
+        position: relative;
+        width: 100%;
+        height: 48px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        bottom: 50px;
     }
-    Section .news .container a:hover { 
+    Section .news .button  a {
+        color: white;
+        background-color: #f13a11;
+        text-decoration: none;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 17.6%;
+        top: 0;
+        padding: 15px 50px; 
+       
+    }
+    Section .news a:hover { 
         background-color:white;
         color: #f13a11;
         transition: 0.6s;
@@ -229,7 +244,7 @@
          margin: 100px auto;
          width: 50%;
          height: 50%;
-         margin-left: 60px;
+         margin-left: 20px;
         }
         section .news .container .working-hours h1 {
             color: white;
@@ -296,16 +311,18 @@
         flex-direction: row;
         justify-content:center;
     }
+    .section-tow .container .images .img-one, .img-tow {
+        margin: 20px;
+        width: 300px;
+    }
     .section-tow .container .images img {
-        width: 250px;
-        margin-left:20px;
+        width: 100%;
     }
     .section-tow .container .images .img-one .cont {
         background-color: white;
         display: flex;
         flex-direction: column;
         padding-left:15px;
-        margin-left:20px;
     }
     .section-tow .container .images .img-one .cont h1 {
         font-size: 30px;
@@ -314,14 +331,13 @@
     .section-tow .container .images .img-one .cont p {
         padding-bottom: 15px;
         color: #666262;
-
+        
     }
     .section-tow .container .images .img-tow .cont {
         background-color: white;
         display: flex;
         flex-direction: column;
         padding-left:15px;
-        margin-left:20px;
     }
     .section-tow .container .images .img-tow .cont h1 {
         font-size: 30px;
@@ -334,3 +350,41 @@
     }
 
     /* End Section-tow */
+    @media (max-width: 768px) {
+        header .container .links ul {
+            flex-direction: column;
+            display: none;
+        }
+        header .container .social {
+            flex-direction: column;
+            display: none;
+
+        }
+        .landding .container .content h1 {
+        font-size: 40px;
+        }
+        .landding .container .content .button {
+        width: 100%;
+        }
+        Section .news .container .membership .content {
+        width: 100%;
+        }
+        section .news .button a {
+            left: auto;
+
+        }
+        .section-tow .container .all {
+            flex-direction: column;
+        }
+        .section-tow .container .content {
+        width: 100%;
+        }
+        .section-tow .container .images {
+            flex-direction: column;
+        }
+        .section-tow .container .images .img-one, .img-tow {
+            margin: 0;
+            margin-bottom: 50px;
+            width: 100%;
+        }
+    }
