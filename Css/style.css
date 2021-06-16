@@ -60,6 +60,23 @@ header .container .logo a {
   font-weight: bold;
   margin: auto;
 }
+@keyframes change-color {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    color: rgb(0, 195, 255);
+  }
+  50%{
+    color: rgb(255, 0, 157);
+  }
+  75% {
+    color: #f13a11;
+  }
+  100% {
+    color: #f9f9f9;
+  }
+}
 header .container .logo a:hover {
   color: #f13a11;
   transition: 0.6s;
@@ -140,6 +157,11 @@ header .container .social a:hover {
   display: flex;
   letter-spacing: 1px;
   font-size: 50px;
+  animation-name: change-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
 }
 .landding .container .content .button {
   display: flex;
