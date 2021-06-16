@@ -64,13 +64,7 @@ header .container .logo a {
   0% {
     color: rgb(255, 255, 255);
   }
-  25% {
-    color: rgb(0, 195, 255);
-  }
-  50%{
-    color: rgb(255, 0, 157);
-  }
-  75% {
+  50% {
     color: #f13a11;
   }
   100% {
