@@ -599,6 +599,7 @@ footer .container .left i {
     font-size: 33px;
     text-align-last: center;
     letter-spacing: -1px;
+    text-align: center;
   }
   .landding .container .content .button {
     width: 100%;
@@ -646,5 +647,36 @@ footer .container .left i {
     visibility: hidden;
     display: none;
   }
+}
+@media (min-width:768px) {
+  .landding .container .content h1 {
+    font-size: 40px;
+  }
+  .landding .container .content .button {
+    width: 50%;
+  }
+}
+
+@media (max-width:568px) {
+  iframe {
+    width: auto;
+  }
+  footer .container .left a {
+    font-size: 13px;
+  }
+  .news .container .membership h3 {
+    margin: 20px 1px;
+    width: 100%;
+    text-align: start;
+}
+.news .container .membership h1 {
+  width: 100%;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.news .container .membership p {
+  width: 100%;
+  text-align: start;
+}
 }
 /* end fix mobile Screen */
