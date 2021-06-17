@@ -596,7 +596,9 @@ footer .container .left i {
     display: none;
   }
   .landding .container .content h1 {
-    font-size: 40px;
+    font-size: 33px;
+    text-align-last: center;
+    letter-spacing: -1px;
   }
   .landding .container .content .button {
     width: 100%;
