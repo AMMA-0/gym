@@ -95,6 +95,7 @@ header .container .links ul a {
 header .container .links ul a:hover {
   color: #f13a11;
   transition: 0.6s;
+  transform: scale(1.2);
 }
 header .container .social {
   display: flex;
@@ -107,6 +108,7 @@ header .container .social a {
 header .container .social a:hover {
   color: #f13a11;
   transition: 0.6s;
+  transform: scale(1.3);
 }
 /* End head */
 /* Start Landding */
@@ -155,7 +157,6 @@ header .container .social a:hover {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-
 }
 .landding .container .content .button {
   display: flex;
@@ -174,10 +175,12 @@ header .container .social a:hover {
 .landding .container .content a:hover {
   color: #f13a11;
   transition: 0.6s;
+  transform: scale(1.1);
 }
 .landding .container .content .button .lean:hover {
   background-color: white;
   transition: 0.6s;
+  transform: scale(1.1);
 }
 /* End-landding */
 /* Start News */
@@ -249,6 +252,7 @@ header .container .social a:hover {
   background-color: white;
   color: #f13a11;
   transition: 0.6s;
+  transform: scale(1.1);
 }
 .news .container .working-hours {
   margin: 100px auto;
@@ -277,8 +281,6 @@ header .container .social a:hover {
   min-height: 600px;
   background-color: #f9f9f9;
   padding: 7rem 0;
-}
-.section-tow .container {
 }
 .section-tow .container .all {
   display: flex;
@@ -347,15 +349,12 @@ header .container .social a:hover {
   padding-bottom: 15px;
   color: #666262;
 }
-
 /* End Section-tow */
 /* Start Section-three */
 .section-three {
   background-color: #ffffffeb;
   min-height: 600px;
   padding: 7rem 0;
-}
-.section-three .container {
 }
 .section-three .container .content {
   display: flex;
@@ -422,16 +421,15 @@ p {
   padding: 7rem 0;
 }
 .section-four .container .ph {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 12px;
   letter-spacing: 1px;
   font-size: 17px;
   color: #909090;
-  
 }
-.section-four .container table caption{
+.section-four .container table caption {
   color: white;
   align-items: center;
   content: center;
@@ -446,12 +444,12 @@ p {
 }
 .section-four .container table .h {
   background-color: #f13a11;
-  color: white; 
+  color: white;
 }
 .section-four .container table .h th {
-  padding: 15px ;
+  padding: 15px;
 }
-.section-four .container table  .time {
+.section-four .container table .time {
   width: 95px;
   background-color: #f13a11;
   line-height: 1.5;
@@ -460,7 +458,7 @@ p {
 .section-four .container table th {
   color: white;
   padding: 20px 20px;
-  border: 1px solid #252424 ;
+  border: 1px solid #252424;
   border-collapse: collapse;
 }
 .section-four .container table th p {
@@ -519,6 +517,7 @@ textarea {
   background-color: #f13a11;
   color: white;
   transition: 0.6s;
+  transform: scale(1.02);
 }
 .section-five .right-content {
   display: flex;
@@ -578,6 +577,9 @@ footer .container .left a {
   padding: 0px 10px;
   text-decoration: none;
   font-size: 16px;
+}
+footer .container .left a:hover {
+  transform: scale(1.02);
 }
 footer .container .left i {
   color: #f13a11;
@@ -639,8 +641,8 @@ footer .container .left i {
     padding-bottom: 32px;
   }
   .section-four {
-  visibility: hidden;
-  display: none;
+    visibility: hidden;
+    display: none;
   }
 }
 /* end fix mobile Screen */
